@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import TodoList from "./TodoList"
 import TodoAdd from "./TodoAdd"
-import { useTodo } from "../hooks/useTodo"
 import { todoReducer } from "./todoReducer"
+import { useTodo } from "../hooks"
 
 
 const TodoApp = () => {
